@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content = "width=device-width; initial-scale = 1; maximum-scale=1; user-scalable = no;" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Archivo:500Open+Sans:300,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+        <title>The Keyboard Company</title>
+        <link rel="icon" href="images/background.png">
+        
+    </head>
+
+    <body>
+        <header>
+            <a href="home.html"><h1>TK Co.</h1></a>
+          <input type="checkbox" id="nav-toggle" class="nav-toggle">
+          <nav>
+            <ul>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href=""><img src="images/shopping-cart.svg" height="30" width="30" title="cart icon" alt="cart"></a></li>
+              <li><form action="search" class="search-container">
+                <input type="text" placeholder="Search" name="search">
+                <button type="submit" class="btn"><i class="fa fa-search"></i></button>
+              </form></li> 
+            </ul>
+            
+          </nav>
+          <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+          </label>
+        </header>
+
+
+        <main>
+          <div class="row form" id="contact">
+            <h1 class="text7">Contact Us</h1>
+            <div class="area">
+              <p class="questions">Have any questions or concerns? Feel free to contact us!</p>
+              <ul>
+                <li>Phone:<a href="tel:360-800-8000">360-800-8000</a></li>
+                <li>Email: <a href="mailto:keyboard@TK.com">Keyboard@TK.com</a></li>
+              </ul>
+            </div>
+            
+            <div class="container1">
+              <div style="text-align:center">
+                
+              </div>
+              <div class="row">
+               
+                <div class="column">
+                  <form action="http://ctec.clark.edu/CTEC122/scripts/form_echo.php" method="GET">
+                    <label for="fname">Your First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="First Name..">
+                    <label for="lname">Your Last Name</label>
+                    <input type="text" id="tname" name="firstname" placeholder="last Name..">
+                    <label for="tname">Your Email</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Email..">
+                    <label for="state">State</label>
+                    <select id="state" name="statelist" form="lname">                                                                                                                           
+                    <option value="Washington">Washington</option>
+                    <option value="Oregon">Oregon</option>
+                    <option value="Idaho">Idaho</option>
+                    <option value="California">California</option>
+                    <option value="Nevada">Nevada</option></select>
+                    <label for="state" class="option">What Products or Services Are You Intrested In?</label><br>
+                    <input type="radio" id="return" name="product" value="Return">
+                    <label for="return">Return an Item(s)</label>
+                    <input type="radio" id="question" name="Product" value="Question">
+                    <label for="question">Question(s) about a Product</label>
+                    <input type="radio" id="other" name="product" value="other">
+                    <label for="other">Other</label>
+                    <label for="lname">Subject</label>
+                    <input type="text" id="sname" name="subject" placeholder="Subject">
+                    <label for="subject">Message</label>
+                    <textarea id="subject" name="subject" placeholder="Message.." style="height:170px"></textarea>
+                    <input type="reset" value="Clear" class="btn4">
+                    <input type="submit" value="Submit" class="btn4">
+                    
+                  </form>
+                </div>
+              </div>
+            </div>
+        
+            
+          </div>
+        </main>
+
+        <aside>
+        </aside>
+
+        <footer>
+          <nav class="nav4">
+              <ul>
+                  <li><a href="home.html" title="placeholder">Home</a></li>
+                  <li><a href="products.html" title="placeholder">Products</a></li>
+                  <li><a href="about.html" title="placeholder">About Us</a></li>
+                  <li><a href="contact.html" title="placeholder">Contact Us</a></li>
+                  
+              </ul>
+          </nav>
+
+          <p> &copy; 2021 by Jonathan Smith</p>
+      </footer>
+
+    </body>
+
+</html>
